@@ -22,16 +22,246 @@
       <section id="data">
         <h2>2. Data</h2>
         <p>[Paste Data paragraph here]</p>
+
+        <p class="table-label">Table 1 Data Dictionary</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Column</th>
+              <th>Type</th>
+              <th>Source</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>game_title</td>
+              <td>Text</td>
+              <td>both</td>
+              <td>Title of game</td>
+            </tr>
+            <tr>
+              <td>platform</td>
+              <td>Text</td>
+              <td>both</td>
+              <td>
+                Abbreviation of the video game console used to play the game
+              </td>
+            </tr>
+            <tr>
+              <td>publisher</td>
+              <td>Text</td>
+              <td>VGChartz</td>
+              <td>The publisher of the video game</td>
+            </tr>
+            <tr>
+              <td>na_sales</td>
+              <td>Numeric</td>
+              <td>VGChartz</td>
+              <td>The number of units sold in North America</td>
+            </tr>
+            <tr>
+              <td>total_sales</td>
+              <td>Numeric</td>
+              <td>VGChartz</td>
+              <td>The total number of units sold worldwide</td>
+            </tr>
+            <tr>
+              <td>summary</td>
+              <td>Text</td>
+              <td>Metacritic</td>
+              <td>A description of the video game</td>
+            </tr>
+            <tr>
+              <td>release_date</td>
+              <td>Date</td>
+              <td>both</td>
+              <td>The month and year that the game was released</td>
+            </tr>
+            <tr>
+              <td>meta_score</td>
+              <td>Numeric</td>
+              <td>Metacritic</td>
+              <td>The review score as decided on by game critics</td>
+            </tr>
+            <tr>
+              <td>user_score</td>
+              <td>Numeric</td>
+              <td>Metacritic</td>
+              <td>The review score as decided on by the users of Metacritic</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
       <section id="analysis">
         <h2>3. Analysis</h2>
         <p>[Paste Analysis paragraph here]</p>
+
+        <figure>
+          <img
+            src="images/1-scores boxplot.png"
+            alt="Boxplots comparing meta score and user score"
+          />
+          <figcaption>Figure 1. Review Scores Boxplots</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/2-review scores histogram.png"
+            alt="Histograms of review scores"
+          />
+          <figcaption>Figure 2. Review Scores Histogram</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/3-total sales number games released.jpg"
+            alt="Total sales vs number of games released"
+          />
+          <figcaption>
+            Figure 3. Total Sales and Number of Games Released
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/4-metascore number games released.jpg"
+            alt="Metascore vs number of games released"
+          />
+          <figcaption>
+            Figure 4. Metascore and Number of Games Released
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/5-number of games released and total sales by month.png"
+            alt="Number of games released and total sales by month"
+          />
+          <figcaption>
+            Figure 5. Games Released and Total Sales by Month
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/6-total sales by release date.jpg"
+            alt="Total sales by release date"
+          />
+          <figcaption>Figure 6. Total Sales by Release Date</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/7-review scores by release date.jpg"
+            alt="Review scores by release date"
+          />
+          <figcaption>Figure 7. Review Scores by Release Date</figcaption>
+        </figure>
+
+        <p class="table-label">Table 2 Slice Max Summary</p>
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>publisher</th>
+              <th>total_sales</th>
+              <th>na_sales</th>
+              <th>user_score</th>
+              <th>meta_score</th>
+              <th>number of games</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Nintendo</td>
+              <td>1915460000</td>
+              <td>859150000</td>
+              <td>7.8677</td>
+              <td>77.40</td>
+              <td>1410</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Activision</td>
+              <td>727710000</td>
+              <td>428300000</td>
+              <td>6.8040</td>
+              <td>70.96</td>
+              <td>1567</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Electronic Arts</td>
+              <td>659150000</td>
+              <td>329130000</td>
+              <td>6.9439</td>
+              <td>73.82</td>
+              <td>1591</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Sony Computer Entertainment</td>
+              <td>557090000</td>
+              <td>239880000</td>
+              <td>7.5478</td>
+              <td>74.98</td>
+              <td>1365</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Ubisoft</td>
+              <td>500080000</td>
+              <td>260830000</td>
+              <td>7.0068</td>
+              <td>70.73</td>
+              <td>1646</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
       <section id="conclusion">
         <h2>4. Conclusion</h2>
         <p>[Paste Conclusion paragraph here]</p>
+
+        <p class="table-label">Table 3 Top Publishers Summary</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Publisher</th>
+              <th>NA Sales</th>
+              <th>Total Sales</th>
+              <th>Meta Score</th>
+              <th>User Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nintendo</td>
+              <td>859150000</td>
+              <td>1915460000</td>
+              <td>77.40</td>
+              <td>7.87</td>
+            </tr>
+            <tr>
+              <td>Activision</td>
+              <td>428300000</td>
+              <td>727710000</td>
+              <td>70.96</td>
+              <td>6.80</td>
+            </tr>
+            <tr>
+              <td>Electronic Arts</td>
+              <td>329130000</td>
+              <td>659150000</td>
+              <td>73.82</td>
+              <td>6.94</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </main>
 
